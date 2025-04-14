@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Portfolio - By Jasmine Jane Agco </title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="IT Logo" class="logo" />
+    <h1>Welcome to Our IT Services</h1>
+  </header>
+
+  <section class="intro">
+    <p>We provide the best tech solutions tailored for your needs.</p>
+    <button id="toggleInfo">Click Me!</button>
+    <div id="dynamicBox" class="hidden">Thanks for clicking! Here's more info.</div>
+  </section>
+
+  <footer>
+    <p>Designed by Jasmine </p>
+  </footer>
+</body>
+</html>

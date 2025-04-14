@@ -1,0 +1,48 @@
+/* Responsive and appealing design */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f4f8;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.intro {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#dynamicBox {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #27ae60;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive scaling */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .logo {
+    width: 100px;
+  }
+}
